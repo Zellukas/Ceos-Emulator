@@ -1,43 +1,127 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+/autom4te.cache/output.0
+/autom4te.cache/requests
+/autom4te.cache/traces.0
+#Global
+.Apple*
 .DS_Store
-.AppleDouble
-.LSOverride
+.clang_complete
+.local.vimrc
+.ycm_extra_conf.py*
+Thumbs.db
 
-# Icon must end with two \r
-Icon
+# /
+/*_fifo
+/*.exe
+/*.ilk
+/*.log
+/*.ncb
+/*.opensdf
+/*.opt
+/*.pdb
+/*.pid
+/*.sdf
+/*.stackdump
+/*.suo
+/char-server
+/char-server
+/config.log
+/config.status
+/core
+/ipch
+/login-server
+/login-server
+/Makefile
+/Makefile.cache
+/map-server
+/map-server
+/mapcache
+/nbproject
 
-# Thumbnails
-._*
+# /3rdparty/libconfig/
+/3rdparty/libconfig/Makefile
+/3rdparty/libconfig/*.o
+/3rdparty/libconfig/obj
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+# /3rdparty/mt19937ar/
+/3rdparty/mt19937ar/Makefile
+/3rdparty/mt19937ar/*.o
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# /db/
+/db/import
+
+# /conf/
+/conf/import
+/conf/msg_conf/import
+
+# /doc/
+/doc/doxygen
+
+# /log/
+/log/*.log
+/log/*.leaks
+
+# /src/char/
+/src/char/Makefile
+/src/char/obj_sql
+
+# /src/common/
+/src/common/Makefile
+/src/common/obj_all
+/src/common/obj_sql
+/src/common/svnversion.h
+
+# /src/custom/
+/src/custom
+
+# /src/login/
+/src/login/Makefile
+/src/login/obj_sql
+
+# /src/map/
+/src/map/Makefile
+/src/map/obj_sql
+/src/map/pcre.h
+
+# /src/test/
+/src/test/Makefile
+/src/test/obj
+
+# /src/tool/
+/src/tool/Makefile
+/src/tool/obj_all
+
+# /tools/
+/tools/convert
+/tools/adduser
+/tools/*.exe
+/tools/*.ilk
+/tools/*.pdb
+
+# /vcproj-13/
+/vcproj-13/char-server
+/vcproj-13/login-server
+/vcproj-13/mapcache
+/vcproj-13/map-server
+/vcproj-13/*.user
+
+# /vcproj-12/
+/vcproj-12/char-server
+/vcproj-12/login-server
+/vcproj-12/mapcache
+/vcproj-12/map-server
+/vcproj-12/*.user
+
+# /vcproj-10/
+/vcproj-10/char-server
+/vcproj-10/login-server
+/vcproj-10/mapcache
+/vcproj-10/map-server
+/vcproj-10/*.user
+
+# /vcproj-9/
+/vcproj-9/*.user
+/vcproj-9/char-server
+/vcproj-9/login-server
+/vcproj-9/map-server
+/vcproj-9/mapcache
+/conf/.tmp-desd_conf.yml
